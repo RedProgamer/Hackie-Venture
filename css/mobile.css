@@ -1,0 +1,65 @@
+#promotion .container h2 {
+    font-size:1rem;
+}
+
+#promotion .container p {
+    font-size: 0.9rem;
+}
+
+#pricing #content-showcase .content-item {
+    padding: 2rem 2rem;
+}
+
+@media(max-width: 500px) {
+    header {
+        height: 15vh;
+    }
+    
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #navbar h1 {
+        font-size: 2rem;
+        margin-top: 20px;
+    }
+
+    #navbar ul {
+        font-size: 1rem;
+    }
+
+    #navbar ul li:last-child {
+        display:none;
+    }
+
+    #home .content > p {
+        font-size: 0.8rem;
+        line-height: 1.7;
+    }
+
+    #home {
+        height: 55vh;
+    }
+
+    #about .items {
+        flex-direction: column;
+        border-bottom: 1px dotted #ccc;
+    }
+
+    #about .items .item:last-child {
+        margin-bottom: 40px;
+    }
+
+
+    #promotion {
+        display: none;
+    }
+
+    #features .container .showcase-content {
+        display:flex;
+        flex-direction: column;
+    }
+
+
+}
