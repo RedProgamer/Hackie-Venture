@@ -1,5 +1,5 @@
 #promotion .container h2 {
-    font-size:1rem;
+    font-size:1.2rem;
 }
 
 #promotion .container p {
@@ -8,6 +8,20 @@
 
 #pricing #content-showcase .content-item {
     padding: 2rem 2rem;
+}
+
+@media(max-width: 768px) {
+    #promotion .container h2 {
+        font-size:1rem;
+    }
+    
+    #promotion .container p {
+        font-size: 0.9rem;
+    }
+    
+    #pricing #content-showcase .content-item {
+        padding: 2rem 2rem;
+    }
 }
 
 @media(max-width: 500px) {
