@@ -81,11 +81,11 @@
 }
 
 @media(max-width: 360px) {
-    #navbar h1 {
-        margin-top: 10px;
+    header {
+        height: 20vh;
     }
 
-    #navbar ul {
-        align-items: center;
+    #navbar h1 {
+        margin-top: 10px;
     }
 }
