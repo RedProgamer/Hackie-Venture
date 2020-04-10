@@ -61,8 +61,9 @@ i {
 header {
     background: #f4f4f4;
     height: 10vh;
-    position: sticky;
-    filter: drop-shadow(0px 6px 10px #000)
+    /* position: fixed; */
+    filter: drop-shadow(0px 6px 10px #000);
+    /* z-index: 1; */
 }
 
 #navbar {

@@ -36,7 +36,7 @@
 
     #navbar h1 {
         font-size: 2rem;
-        margin-top: 20px;
+        margin-top: 15px;
     }
 
     #navbar ul {
@@ -70,10 +70,9 @@
         display: none;
     }
 
-    #features .container .showcase-content {
-        display:flex;
-        flex-direction: column;
-    }
+   #features {
+       display: none;
+   }
 
     
 
@@ -84,5 +83,17 @@
     #navbar h1 {
         margin-top: 10px;
         margin-bottom: -3px;
+    }
+
+    #home .content > h1 {
+        font-size: 2.5rem;
+    }
+
+    #about .container > h1 {
+        font-size: 2.5rem;
+    }
+
+    #features .container .showcase-content > h1 {
+        font-size: 2.5rem;
     }
 }
